@@ -43,11 +43,6 @@ def collided(bird, obstacles):
             return True
     return False
 
-def getNextObstacles(bird, obstacles):
-    nextObstacles = []
-    for obstacle in obstacles:
-        if obstacle[0].x + obstacle[0].width < bird.position.x - bird.dimensions.x/2:
-            nextObstacles.append(obstacle)
     
 def setup():
     global bird, environment
