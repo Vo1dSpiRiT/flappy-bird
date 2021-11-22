@@ -1,7 +1,7 @@
 import pygame
 from pygame.math import Vector2
-from Bird import Bird
-from Environment import Environment
+from Scripts.Bird import Bird
+from Scripts.Environment import Environment
 pygame.font.init()
 
 resolution = Vector2(450, 700)
