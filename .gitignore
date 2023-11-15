@@ -5,3 +5,4 @@ __pycache__/PhysicsObject.cpython-310.pyc
 __pycache__/Bird.cpython-310.pyc
 __pycache__/Obstacles.cpython-310.pyc
 __pycache__/Floor.cpython-310.pyc
+*.pyc
